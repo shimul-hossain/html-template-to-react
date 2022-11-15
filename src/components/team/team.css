@@ -1,0 +1,114 @@
+.ourteam {
+    width: 100%;
+    height: 1000px;
+    margin-top: 50px;
+}
+
+.ourteamcontainer {
+    position: relative;
+    width: 1200px;
+    height: 1000px;
+
+}
+
+.whoweare {
+    height: 382px;
+}
+
+.teamimg {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    height: 565px;
+    width: 1200px;
+    bottom: 50px;
+
+    z-index: 2;
+
+}
+
+.ttxt {
+    margin-top: 130px;
+}
+
+.teaminnerdiv {
+    position: relative;
+
+    height: 100%;
+    width: 32%;
+    text-align: center;
+}
+
+.teaminnerdiv img {
+    width: 100%;
+
+}
+
+.tovly {
+    position: absolute;
+    top: 0;
+    height: 0;
+    opacity: 0;
+    width: 384px;
+
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    background: linear-gradient(180deg, rgba(232, 131, 131, 0.7651260333234856) 32%, rgba(240, 216, 138, 1) 100%);
+}
+
+.teaminnerdiv:hover .tovly {
+
+    height: 474.95px;
+    opacity: 1;
+}
+
+.tovly ul li {
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    background-color: #fce38a;
+    margin-left: -1px;
+    margin-top: 220px;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+
+.tovly ul li:hover {
+    background-color: #f38181;
+    color: white;
+}
+
+.tovly ul li:hover i {
+
+    color: white;
+}
+
+.tovly ul li i {
+    font-size: 40px;
+    margin-top: 16px;
+    color: #f38181;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+
+.teaminnerdiv h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.teaminnerdiv p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    color: #9f9f9f;
+}
