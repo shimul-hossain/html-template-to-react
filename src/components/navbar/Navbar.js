@@ -1,5 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import './navbar.css'
+import Dashbaord from '../../pages/Dashboard/Navbar';
 function Navbar() {
   return (
     <section className="topbarbanner" style={{ background:"url(images/bannereagle.jpg)" }}>
@@ -17,6 +19,7 @@ function Navbar() {
                         <li><a href="#">Work</a></li>
                         <li><a href="#">Blog</a></li>
                         <li><a href="#">Contact</a></li>
+                        <li><Link to={'/dashboard'}>Dashbaord</Link></li>
                     </ul>
                 </div>
             </div>
